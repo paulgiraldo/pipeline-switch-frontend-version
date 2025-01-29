@@ -1,9 +1,9 @@
 pipeline {
     agent any
 
-    parameteres {
+    parameters {
         string(name: 'BUCKET_FUENTE', defaultValue: 'bucker-codigo-backup', description: 'Nombre de bucket de origen...')
-        string(name: 'BUCKET_TARGET', defaultValue: 'bucker-codigo-front', description: 'Nombre de bucket objetivo...')
+        string(name: 'BUCKET_TARGET', defaultValue: 'bucker-codigo-paul', description: 'Nombre de bucket objetivo...')
         string(name: 'CARPETA_USUARIO', defaultValue: 'paul', description: 'Nombre de la carpeta del Usuario..')
         string(name: 'CARPETA_FUENTE', defaultValue: 'frontend-fuente-v1', description: 'Nombre de la carpeta del bucker origen...')
     }
